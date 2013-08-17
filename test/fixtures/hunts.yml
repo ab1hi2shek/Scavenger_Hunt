@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  clue: MyString
+  zipcode: 1
+  location: MyString
+
+two:
+  clue: MyString
+  zipcode: 1
+  location: MyString
