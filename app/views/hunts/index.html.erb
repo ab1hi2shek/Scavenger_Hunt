@@ -1,11 +1,16 @@
-<h1>MYSTERIOUS CLUE</h1>
 <body>
+  <div id = "main">
+<h1>MYSTERIOUS CLUE</h1>
+
+
   <h2>Drumroll please</h2>
-    <td><%= @hunt.hint %></td>
 
-  <form>
-    Answer: <input type="text">
-  </form>
+      <td><%= @hunt.hint %></td>
 
-  <%= link_to 'Next!', hunts_path %>
+    <form>
+      Answer: <input type="text">
+    </form>
+
+    <%= link_to 'Next!', hunts_path %>
+  </div>
 </body>
